@@ -26,7 +26,7 @@ class MainViewFrame(tk.Frame):
             self.billTotalLabel.configure(text = "Bill Total: 0")
             
         # New Sale Section
-        # This is a new change
+        
         self.titleLabel = CTkLabel(master=self, text="New Bill", font=("Arial Black", 25), text_color="#2A8C55")
         self.titleLabel.pack(anchor="w", pady=(29, 0), padx=27)
 
